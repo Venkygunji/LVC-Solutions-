@@ -3030,11 +3030,23 @@ p {
 
 /* LVC Academy carousel tweaks */
 
-#LVCAcademyCarousel .carousel-indicators [data-bs-target] {
-  background-color: black;
+.academy-grid-col {
+  border: .15vmax solid white;
+  font-size: clamp(13px, 1vmax, 20px);
+  font-weight: bold;
+  padding: 1px;
 }
 
-#LVCAcademyCarousel .carousel-control-prev-icon,
-#LVCAcademyCarousel .carousel-control-next-icon {
-  filter: invert(1);
+.academy-grid-row {
+  border: .15vmax solid white;
+  font-size: clamp(13px, 1vmax, 20px);
+  font-weight: 400;
+  padding: 1px;
+}
+
+.academy-grid-cells {
+  border: .15vmax solid white;
+  font-size: clamp(10px, 1vmax, 20px);
+  font-weight: 400;
+  padding: 1px;
 }

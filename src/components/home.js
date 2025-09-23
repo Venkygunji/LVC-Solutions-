@@ -77,7 +77,7 @@ const Home = () => {
             <AcademyCarousel />
           </div>
           <div class="container my-5">
-            <div class="p-5 bg-dark text-center rounded shadow">
+            <div class="p-5 text-center">
               <h2 class="fw-bold mb-4">
                 Choose Your Path: 6-Month Fast Track or 12-Month Comprehensive
                 Bootcamp.

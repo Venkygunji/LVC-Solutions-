@@ -9,7 +9,7 @@ function AcademyCarousel() {
       <Carousel.Item>
         <div className="slide-surface d-flex align-items-center justify-content-center">
           <Carousel.Caption style={{ bottom: '18%' }}>
-            <div className="p-5 bg-dark bg-opacity-75 text-center rounded shadow">
+            <div className="p-5 text-center no-card">
               <h1
                 style={{
                   textAlign: 'center',
@@ -46,10 +46,10 @@ function AcademyCarousel() {
               }}
             >
               <div
-                className="difference-card opacity-75"
+                className="difference-card no-card"
                 style={{ flex: '1 1 300px', maxWidth: '400px' }}
               >
-                <div className="card-content bg-dark bg-opacity-50 p-4 rounded">
+                <div className="card-content p-4 rounded">
                   <h3>Fast-Track 6-Month Bootcamps</h3>
                   <ul>
                     <li>
@@ -68,10 +68,10 @@ function AcademyCarousel() {
               </div>
 
               <div
-                className="difference-card opacity-75"
+                className="difference-card no-card"
                 style={{ flex: '1 1 300px', maxWidth: '400px' }}
               >
-                <div className="card-content bg-dark bg-opacity-50 p-4 rounded">
+                <div className="card-content p-4 rounded">
                   <h3>Comprehensive 12-Month Bootcamps</h3>
                   <ul>
                     <li>Deeper curriculum with advanced specializations</li>
@@ -96,7 +96,7 @@ function AcademyCarousel() {
       <Carousel.Item>
         <div className="slide-surface">
           <Carousel.Caption>
-            <div className="difference-card opacity-75">
+            <div className="difference-card no-card">
               <h3
                 style={{
                   color: 'white',
@@ -143,7 +143,7 @@ function AcademyCarousel() {
               <h2 className="mb-4 text-center" style={{ color: 'white' }}>
                 Feature Comparison
               </h2>
-              <table className="table table-dark opacity-75 table-bordered text-center align-middle">
+              <table className="table table-bordered text-center align-middle table-blackwhite">
                 <thead className="table-dark">
                   <tr>
                     <th>Feature</th>

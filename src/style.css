@@ -3041,7 +3041,12 @@ p {
   background: #000;     /* black */
   min-height: 60vh;     /* gives slides height without an image */
   width: 100%;
+  position: relative;
 }
+
+
+
+
 
 /* Make all text inside this carousel white by default */
 .academy-carousel,

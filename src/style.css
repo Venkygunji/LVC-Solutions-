@@ -224,6 +224,8 @@ footer .logo {
   width: 100%;
 }
 
+
+
 .custom-carousel-image {
   height: 600px;
   object-fit: cover;
@@ -3037,4 +3039,29 @@ p {
 #LVCAcademyCarousel .carousel-control-prev-icon,
 #LVCAcademyCarousel .carousel-control-next-icon {
   filter: invert(1);
+}
+
+.academy-carousel .slide-surface {
+  background: #000;     /* black */
+  min-height: 60vh;     /* gives slides height without an image */
+  width: 100%;
+}
+
+/* Make all text inside this carousel white by default */
+.academy-carousel,
+.academy-carousel .carousel-caption,
+.academy-carousel h1,
+.academy-carousel h2,
+.academy-carousel h3,
+.academy-carousel p,
+.academy-carousel li,
+.academy-carousel a,
+.academy-carousel strong,
+.academy-carousel em {
+  color: #fff;
+}
+
+.academy-carousel .carousel-control-prev-icon,
+.academy-carousel .carousel-control-next-icon {
+  filter: none !important;     /* stop inverting */
 }

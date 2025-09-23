@@ -4,7 +4,7 @@ import '../style.css';
 import TransformationStartsHere from './transformationStartsHere.js';
 import Footer from './footer.js';
 // import SpotLogo from "../assets/lvcSpo.jpg";
-import AcaLogo from '../assets/lvcAca.jpg';
+// import AcaLogo from '../assets/lvcAca.jpg';
 import FairJobCarousel from './fairJobCarousel.js';
 import SpotLightCarousel from './spotlightCarousel.js';
 import AcademyCarousel from './academyCarousel.js';
@@ -58,7 +58,7 @@ const Home = () => {
 
       {/* LVC Academy info */}
       <div
-        className="bg-white"
+        className="bg-black"
         style={{
           display: 'flex',
           justifyContent: 'center',
